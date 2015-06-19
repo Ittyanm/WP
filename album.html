@@ -1,0 +1,89 @@
+<!DOCTYPE html><!--今からhtmlで書いていきます-->
+<html lang="ja"><!--言語属性は日本語です-->
+	<head>
+		<meta charset="utf-8"><!--文字コードはutf-8です-->
+		<meta name="description" content="［WebD］LiT! LeadersのTwoBlo/Kento_Ichikawaのサイトです。"><!--サイトの説明文.文字数は120字以内最初の40文字が勝負-->
+		<meta name="keywords" content="" /><!--本文に書けなかったキーワードを入れると良いでしょう。５〜６個以内推奨-->
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--モバイルに最適化したサイトは、次のような記述を含んでいるのが典型的です-->
+		<link rel="shortcut icon" href="album/[DiverFront]favicon.png"><!--faviconの設定-->
+		<link rel="stylesheet" href="css/style.css">
+		<title>［WebD］LiT! | TwoBlo</title><!--タグ部分で表示されます-->
+
+		<!--jQuery library (served from Google)-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!--bxSlider Javascript file-->
+		<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+		<!--bxSlider CSS file-->
+		<link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				auto: true,
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<nav>
+			<div id="inner_container">
+				<ul class="container">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="album.html">ALBUM</a></li>
+					<li><a href="https://www.facebook.com/ittyanm" target="_blank">Facebook</a></li>
+					<li><a href="https://twitter.com/Ittyanm" target="_blank">Twitter</a></li>
+					<li><a href="https://instagram.com/ittyanm/" target="_blank">Instagram</a></li>
+				</ul>
+
+				<div id="subnav" class="container">
+				<ul class="container">
+					<li><a href="#profile">PROFILE</a></li>
+					<li><a href="album.html">ALBUM</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id="header">
+			<header>
+			<h1 id="profile">ABOUT</h1>
+			</header>
+		</div>
+
+		<div id="main">
+			<main>
+			<h1 id="profile">My Album</h1>
+				<ul class="list-album">
+					<li><img src="album/tree.jpg"/ alt="" width="290">
+						<h2>紅葉</h2>
+						<p>2015/06/01</p>
+					</li>
+					<li><img src="album/soso.jpg"/ alt="" width="290">
+						<h2>カンボジア</h2>
+						<p>2015/06/01</p>
+					</li>
+					<li><img src="album/snow.jpg"/ alt="" width="290">
+						<h2>雪</h2>
+						<p>2015/06/01</p>
+					</li>
+					<li><img src="album/party.jpg"/ alt="" width="290">
+						<h2>パーティー</h2>
+						<p>2015/06/01</p>
+					</li>
+					<li><img src="album/kamakura.jpg"/ alt="" width="290">
+						<h2>鎌倉</h2>
+						<p>2015/06/01</p>
+					</li>
+				</ul>
+			</main>
+		</div>
+		<div id="footer">
+			<footer>
+			<p>このサイトは＠ツーブロによって運営されています。</p>
+			<br>
+			<p>Copyright(c)2015 TwoBlo. All rights reserved<p>
+			</footer>
+		</div>
+
+	</body>
+</html>
